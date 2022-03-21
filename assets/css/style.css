@@ -63,7 +63,7 @@ button:active{
 }
 .color-container{
     /* position: absolute; */
-    width: 180px;
+    width: 20vw;
     height: 500px;
     background-color: var(--shimmering-blush);
     border: 3px solid var(--eerie-black);
@@ -74,7 +74,7 @@ button:active{
     background-color: var(--white);
     position: relative;
     top: 75%;
-    width: 100%;
+    width: 15vw;
     height: 15%;
     display: flex;
     flex-direction: column;
