@@ -48,42 +48,51 @@ button:active{
     color: var(--white);
 }
 .generator-wrapper{
-    margin: 16px 16px;
-    display: flex;
+    /* margin: 16px 16px; */
+    /* display: flex; */
+    height: 80vh;
+    width: 100%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 .generator{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 16px;
+    /* width: 70vw; */
     display: flex;
     justify-content: center;
-    gap: 32px;
-    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 20 px; */
+    justify-content: space-between;
 }
 .color-container{
     /* position: absolute; */
+    /* margin: 10px; */
     width: 20vw;
-    height: 500px;
+    height: 530px;
     background-color: var(--shimmering-blush);
     border: 3px solid var(--eerie-black);
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
 }
 .color-info{
+    border-top: solid var(--eerie-black) 3px;
+    border-bottom: solid var(--eerie-black) 3px;
     background-color: var(--white);
     position: relative;
     top: 75%;
-    width: 15vw;
-    height: 15%;
+    width: 100%;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    align-items: center;
+    justify-content: flex-end;
 
 }
 
 .btn-row{
     margin-top: 16px;
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }

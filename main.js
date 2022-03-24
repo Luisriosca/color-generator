@@ -13,7 +13,7 @@ const colorPalette = {
                 html += `
                 <div id="color-container${index+1}" style="background-color:#${color}" class="color-container">
                     <div class="color-info">
-                        <p id="color-name${index+1}">#${color}</p>
+                        <h3 id="color-name${index+1}">#${color.toUpperCase()}</h3>
                     </div>
                 </div>
                 `
